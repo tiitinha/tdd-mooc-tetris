@@ -1,39 +1,39 @@
-/*
-import { expect } from "chai";
-import { RotatingShape } from "../src/RotatingShape.mjs";
 
-describe("Rotating 3x3 shape", () => {
-  const shape = new RotatingShape(
-    `ABC
-     DEF
-     GHI`
-  );
+// import { expect } from "chai";
+// import { RotatingShape } from "../src/RotatingShape.mjs";
 
-  it("initial orientation", () => {
-    expect(shape.toString()).to.equalShape(
-      `ABC
-       DEF
-       GHI`
-    );
-  });
+// describe("Rotating 3x3 shape", () => {
+//   const shape = new RotatingShape(
+//     `ABC
+//      DEF
+//      GHI`
+//   );
 
-  xit("can be rotated right/clockwise", () => {
-    expect(shape.rotateRight().toString()).to.equalShape(
-      `GDA
-       HEB
-       IFC`
-    );
-  });
+//   it("initial orientation", () => {
+//     expect(shape.toString()).to.equalShape(
+//       `ABC
+//        DEF
+//        GHI`
+//     );
+//   });
 
-  xit("can be rotated left/counter-clockwise", () => {
-    expect(shape.rotateLeft().toString()).to.equalShape(
-      `CFI
-       BEH
-       ADG`
-    );
-  });
-});
-*/
+//   xit("can be rotated right/clockwise", () => {
+//     expect(shape.rotateRight().toString()).to.equalShape(
+//       `GDA
+//        HEB
+//        IFC`
+//     );
+//   });
+
+//   xit("can be rotated left/counter-clockwise", () => {
+//     expect(shape.rotateLeft().toString()).to.equalShape(
+//       `CFI
+//        BEH
+//        ADG`
+//     );
+//   });
+// });
+
 
 /*
 describe("Rotating 5x5 shape", () => {
